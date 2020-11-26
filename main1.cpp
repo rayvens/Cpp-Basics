@@ -1,6 +1,21 @@
 #include <iostream>
 
 int main(){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     int a = 10;
     int* p = &a;
     int** pp = &p;
