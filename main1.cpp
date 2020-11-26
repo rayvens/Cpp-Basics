@@ -1,6 +1,8 @@
 #include <iostream>
 
 int main(){
-    std::cout<<"Hello world!";
-    std::cout<<" test";
+
+    std::cout<<"Hello world!\n";
+    std::cout<<"test\n";
+
 }
