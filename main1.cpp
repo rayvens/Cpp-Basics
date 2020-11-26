@@ -1,6 +1,11 @@
 #include <iostream>
 
 int main(){
-    std::cout<<"Hello world!";
+    int a = 10;
+    int* p = &a;
+    int** pp = &p;
 
+    std::cout<<p <<" "<<*p <<std::endl;
+    std::cout<<pp <<" "<<*pp <<" "<<**pp << std::endl;
+    
 }
